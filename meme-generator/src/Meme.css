@@ -1,0 +1,31 @@
+.meme {
+    position: relative;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .meme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .top-text,
+  .bottom-text {
+    position: absolute;
+    font-family: 'Impact', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .top-text {
+    top: 20px;
+  }
+  
+  .bottom-text {
+    bottom: 20px;
+  }
+  
